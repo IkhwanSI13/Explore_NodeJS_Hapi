@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "npm init --y",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start_nodemon": "nodemon ./src/server.js",
+    "start_node": "node ./src/server.js",
+    "lint": "eslint ./"
   },
   "keywords": [],
   "author": "",
